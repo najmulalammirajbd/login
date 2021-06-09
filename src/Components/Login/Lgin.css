@@ -1,0 +1,75 @@
+.Contactbt {
+    border: none;
+    background-color: #30a0c7;
+    color: white;
+    border: 1px solid white;
+    margin-top: 7px;
+    width: 275px;
+    height: 40px;
+    font-family: 'Baloo Da 2', cursive;
+    outline: none;
+}
+.Contactbt:hover {
+    border: none;
+    background-color: white;
+    color: #30a0c7;
+    border: 1px solid #30a0c7 ;
+    margin-top: 7px;
+    font-family: 'Baloo Da 2', cursive;
+    outline: none;
+}
+.Contactb {
+    border: none;
+    background-color: #30a0c7;
+    color: white;
+    border: 1px solid white;
+    margin-top: 7px;
+    width: 275px;
+    height: 40px;
+    font-family: 'Baloo Da 2', cursive;
+    outline: none;
+}
+.Contactb:hover {
+    border: none;
+    background-color: white;
+    color: #30a0c7;
+    border: 1px solid #30a0c7 ;
+    margin-top: 7px;
+    font-family: 'Baloo Da 2', cursive;
+    outline: none;
+}
+.Contact {
+    border: none;
+   background-color: white; 
+   color: #30a0c7 ;
+   margin:10px 10px;
+   font-size: 10px;
+}
+.LginTitel{
+    color: #30a0c7;
+    box-shadow: 0 10px 40px rgba(0,0,0,.05);
+    outline: none;
+    height: 53px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 15px;
+}
+.Co{
+    
+   border: none;
+   background-color: white; 
+   color: #30a0c7 ;
+   font-size: 10px;
+
+   margin:10px 10px;
+    
+}
+input{
+    width: 275px ;
+    border: 1px solid #30a0c7;
+    height: 50px;
+    margin-top: 5px;
+    outline: none;
+}
