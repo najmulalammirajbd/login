@@ -102,6 +102,7 @@ function Login() {
       createUserWithEmailAndPassword(user.name, user.email, user.password)
         .then(res => {
           handleResponse(res, true);
+          history.replace('/redy');
         })
     }
 
@@ -109,6 +110,7 @@ function Login() {
       signInWithEmailAndPassword(user.email, user.password)
         .then(res => {
           handleResponse(res, true);
+          history.replace('/registration');
         })
     }
     e.preventDefault();
@@ -137,7 +139,7 @@ function Login() {
 
       </form>
       <p style={{ color: 'red' }}>{user.error}</p>
-      { user.success && <p style={{ color: 'green' }}>User {newUser ? 'created' : 'Logged In'} successfully</p>}
+      {user.success && <p style={{ color: 'green' }}>User {newUser ? 'created' : 'Logged In'} successfully</p>}
     </div>
   );
 }

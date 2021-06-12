@@ -38,6 +38,28 @@
     font-family: 'Baloo Da 2', cursive;
     outline: none;
 }
+
+.Contactbtn {
+    border: none;
+    background-color: #30a0c7;
+    color: white;
+    border: 1px solid white;
+    margin-top: 7px;
+    width: 275px;
+    height: 40px;
+    font-family: 'Baloo Da 2', cursive;
+    outline: none;
+}
+.Contactbtn:hover {
+    border: none;
+    background-color: white;
+    color: #30a0c7;
+    border: 1px solid #30a0c7 ;
+    margin-top: 7px;
+    font-family: 'Baloo Da 2', cursive;
+    outline: none;
+}
+
 .Contact {
     border: none;
    background-color: white; 

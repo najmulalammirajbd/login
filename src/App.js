@@ -13,6 +13,9 @@ import { createContext } from 'react';
 import Registration from './Components/Registration/Registration';
 
 import Forgetpassword from './Components/ForgetPassword/Forgetpassword';
+import Pay from './Components/Pay/Pay';
+import About from './Components/About/About';
+import Redy from './Components/Redy/Redy';
 
 export const UserContext = createContext();
 
@@ -32,19 +35,21 @@ function App(props) {
           <Route path="/home">
             <Login />
           </Route>
-
-
-
-
-
-
           <Route path="/resetpassword">
             <Forgetpassword />
           </Route>
           <PrivateRoute path="/registration">
             <Registration />
           </PrivateRoute>
-
+          <PrivateRoute path="/pay">
+            <Pay />
+          </PrivateRoute>
+          <PrivateRoute path="/redy">
+            <Redy />
+          </PrivateRoute>
+          <Route path='/about'>
+            <About></About>
+          </Route>
         </Switch>
 
       </Router>
